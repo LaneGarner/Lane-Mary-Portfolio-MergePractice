@@ -1,17 +1,12 @@
 .transition:hover {
-  transform: scale(1.5);
+    transform: scale(1.05);
 }
 
-.transition:active {
-  animation: grow-size;
-  animation-duration: 0.5s;
+.transition:focus {
+    animation: big-font 1s;
 }
 
-@keyframes grow-size {
-  0% {
-    font-size: 16px;
-  }
-  100% {
-    font-size: 40px;
-  }
-}
+@keyframes big-font {
+    from{font-size: 16px;}
+    to{font-size: 300px;}
+}  
