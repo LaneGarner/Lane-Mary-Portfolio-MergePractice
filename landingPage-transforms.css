@@ -1,0 +1,12 @@
+.transition:hover {
+    transform: scale(1.05);
+}
+
+.transition:focus {
+    animation: big-font 1s;
+}
+
+@keyframes big-font {
+    from{font-size: 16px;}
+    to{font-size: 300px;}
+}
